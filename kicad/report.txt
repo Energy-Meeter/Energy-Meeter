@@ -1,0 +1,2 @@
+Plotted to '/home/cullen/Projects/Mains_monitor/kicad/Mains_monitor-energy monitor-Untitled Sheet.svg'.
+Info: Done
