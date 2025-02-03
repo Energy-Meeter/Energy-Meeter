@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Library.pretty")(options "")(descr ""))
   (lib (name "mains_mon")(type "KiCad")(uri "${KIPRJMOD}/mains_mon.pretty")(options "")(descr ""))
+  (lib (name "Connector_Screw_Terminal")(type "KiCad")(uri "${KIPRJMOD}/Connector_Screw_Terminal.pretty")(options "")(descr ""))
 )
