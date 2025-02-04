@@ -3687,6 +3687,10 @@
 		(uuid "71f2677a-5e23-4d55-9b49-27ca19d5d013")
 	)
 	(no_connect
+		(at 246.38 39.37)
+		(uuid "81e301a2-01d7-4090-8d08-9503fe34bc0a")
+	)
+	(no_connect
 		(at 166.37 88.9)
 		(uuid "8315ceec-1818-422b-83c5-fd4ee3928557")
 	)
@@ -3705,10 +3709,6 @@
 	(no_connect
 		(at 166.37 81.28)
 		(uuid "bc56e82c-bfeb-4e8c-88f3-78fd2756042d")
-	)
-	(no_connect
-		(at 246.38 39.37)
-		(uuid "c9c5ad5a-b873-45f7-8ede-f086fe7227eb")
 	)
 	(no_connect
 		(at 166.37 78.74)
@@ -4048,16 +4048,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 33.02) (xy 241.3 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d1291f3-6a98-44ea-b5ba-ec148d39cd95")
-	)
-	(wire
-		(pts
 			(xy 100.33 71.12) (xy 110.49 71.12)
 		)
 		(stroke
@@ -4325,6 +4315,16 @@
 			(type default)
 		)
 		(uuid "d6fd091f-836a-4c9b-84db-6fb0a85363fc")
+	)
+	(wire
+		(pts
+			(xy 241.3 33.02) (xy 241.3 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da965a11-8304-4c35-bb89-ab89df02cceb")
 	)
 	(wire
 		(pts
@@ -4668,6 +4668,28 @@
 		)
 		(uuid "a0b7fd6d-0037-4c59-b6ac-ba94c22bd811")
 	)
+	(global_label "AC_H"
+		(shape input)
+		(at 241.3 33.02 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "131c17ce-964d-4084-b64a-c18afa67ec2a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 241.3 25.3781 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IN"
 		(shape input)
 		(at 102.87 93.98 180)
@@ -4901,28 +4923,6 @@
 		(uuid "d29da108-2390-4cf0-af7a-c59616fac048")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 123.4538 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "AC_H"
-		(shape input)
-		(at 241.3 33.02 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d3364a09-eb77-425b-90b4-12405c85020d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.3 25.3781 90)
 			(effects
 				(font
 					(size 1.27 1.27)
