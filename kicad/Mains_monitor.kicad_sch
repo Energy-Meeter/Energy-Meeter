@@ -6264,7 +6264,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D10.0mm_H12.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
 			(at 99.3648 71.12 0)
 			(effects
 				(font
@@ -6453,7 +6453,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66178df4-a3a1-426e-be4c-1aa4a87dd24b")
-		(property "Reference" "FL2"
+		(property "Reference" "TR2"
 			(at 80.01 178.1809 90)
 			(effects
 				(font
@@ -6462,7 +6462,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "choke"
+		(property "Value" "ZMPT107"
 			(at 80.01 180.7209 90)
 			(effects
 				(font
@@ -6471,7 +6471,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_THT:Choke_Schaffner_RN102-04-14.0x14.0mm"
+		(property "Footprint" "mains_mon:ZMPT107-1"
 			(at 76.2 179.07 0)
 			(effects
 				(font
@@ -6480,7 +6480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.schaffner.com/products/download/product/datasheet/rn-series-common-mode-chokes-new/"
+		(property "Datasheet" ""
 			(at 76.2 179.07 0)
 			(effects
 				(font
@@ -6489,7 +6489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Common mode choke, 300mA, 300VAC, 12mH, 1.1 ohm, RN-102"
+		(property "Description" ""
 			(at 76.2 179.07 0)
 			(effects
 				(font
@@ -6513,7 +6513,7 @@
 		(instances
 			(project "Mains_monitor"
 				(path "/825bfe7d-9d9b-4191-9855-e1cdfdd57fae"
-					(reference "FL2")
+					(reference "TR2")
 					(unit 1)
 				)
 			)
