@@ -482,6 +482,7 @@
     "netclass_assignments": {
       "AC_H": "120V",
       "AC_N": "120V",
+      "Net-(J1-Pin_1)": "120V",
       "Net-(J1-Pin_2)": "120V",
       "RELAY_OUT": "120V"
     },
