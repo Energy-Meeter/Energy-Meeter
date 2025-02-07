@@ -9678,6 +9678,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Energy Meeter Rev A"
+		(at 112.25 136.75 0)
+		(layer "F.SilkS")
+		(uuid "1c9cf72c-6b3f-4a76-aebc-dc16d5ca9053")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "N_in\n"
 		(at 95.5 55.5 0)
 		(layer "F.SilkS")
