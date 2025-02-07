@@ -62,7 +62,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "ignore",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
@@ -216,7 +216,11 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "lib_symbol_issues|1790700|838200|0b20d24b-bca3-4865-8479-66c35b718b8b|00000000-0000-0000-0000-000000000000|||",
+      "multiple_net_names|368300|927100|961f3633-45e0-4d99-87a9-c5081a847eff|66b54df2-c22c-428a-9fea-0fef2c1deed8|/825bfe7d-9d9b-4191-9855-e1cdfdd57fae|/825bfe7d-9d9b-4191-9855-e1cdfdd57fae|/825bfe7d-9d9b-4191-9855-e1cdfdd57fae",
+      "multiple_net_names|368300|952500|96199437-6026-475f-ad8d-7dbbd2ef54d4|a0b7fd6d-0037-4c59-b6ac-ba94c22bd811|/825bfe7d-9d9b-4191-9855-e1cdfdd57fae|/825bfe7d-9d9b-4191-9855-e1cdfdd57fae|/825bfe7d-9d9b-4191-9855-e1cdfdd57fae"
+    ],
     "meta": {
       "version": 0
     },
@@ -486,7 +490,12 @@
       "Net-(J1-Pin_2)": "120V",
       "RELAY_OUT": "120V"
     },
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "120V",
+        "pattern": "AC_H"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
