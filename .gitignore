@@ -29,3 +29,7 @@ _autosave-*
 # Exported BOM files
 *.xml
 *.csv
+
+# Platform io
+.pio
+.vscode
