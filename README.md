@@ -13,9 +13,12 @@ An esp32-powered smart plug and online dashboard.
 
 ### Board Revision A
 
-Status: in review
+Status: Testing
 
-This is the current board revision for the energy meeter. It's currently in review to ensure that it can safely handle high voltage.
+The current revision of the energy meeter. We just received it from PCBWay, and we're now in the process of assembling and validating it.
+
+![](./docs/revA.jpg)
+
 
 #### Schematic
 ![schmatic](./docs/revA_schematic.png)
