@@ -506,7 +506,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Mains_monitor.step",
       "svg": "",
       "vrml": ""
     },
