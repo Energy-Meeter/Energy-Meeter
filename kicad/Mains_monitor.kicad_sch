@@ -3400,7 +3400,13 @@
 		(at 250.19 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3e84d044-71cd-488f-9c9c-f82b7ec81539")
+		(uuid "2e2280e2-a3ee-4883-9690-69c408347ef0")
+	)
+	(junction
+		(at 248.92 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c704ba4-1dbc-45a3-9899-21c2a3b5b005")
 	)
 	(junction
 		(at 134.62 97.79)
@@ -3628,6 +3634,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 138.43) (xy 250.19 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eb25fec-81af-4b5b-82fc-9ca904599b26")
+	)
+	(wire
+		(pts
 			(xy 80.01 132.08) (xy 86.36 132.08)
 		)
 		(stroke
@@ -3778,6 +3794,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 132.08) (xy 248.92 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "419ff588-0d1d-4016-973d-ee18710d5adc")
+	)
+	(wire
+		(pts
 			(xy 270.51 143.51) (xy 275.59 143.51)
 		)
 		(stroke
@@ -3805,16 +3831,6 @@
 			(type default)
 		)
 		(uuid "4c6fc72a-1ae9-4e76-9449-81042dc92e50")
-	)
-	(wire
-		(pts
-			(xy 246.38 138.43) (xy 250.19 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4eae4027-d73b-4315-827c-bdebde91b695")
 	)
 	(wire
 		(pts
@@ -4078,6 +4094,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 138.43) (xy 248.92 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acfd9e36-741d-4386-aa1e-89d9b3262f49")
+	)
+	(wire
+		(pts
 			(xy 134.62 97.79) (xy 134.62 101.6)
 		)
 		(stroke
@@ -4215,6 +4241,16 @@
 			(type default)
 		)
 		(uuid "d6fd091f-836a-4c9b-84db-6fb0a85363fc")
+	)
+	(wire
+		(pts
+			(xy 234.95 138.43) (xy 238.76 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9e34c40-767c-4bad-be23-188163e5e260")
 	)
 	(wire
 		(pts
@@ -4722,7 +4758,7 @@
 	)
 	(global_label "AC_H"
 		(shape input)
-		(at 246.38 138.43 180)
+		(at 234.95 138.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4732,7 +4768,7 @@
 		)
 		(uuid "86b547aa-6704-4927-a315-67af99dbf54f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.7381 138.43 0)
+			(at 227.3081 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4933,6 +4969,29 @@
 		(uuid "6cc8ab8f-b22c-480e-a49e-9494b6327ecf")
 		(property "Netclass" "120V"
 			(at 48.9585 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 248.92 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9fa7776-53aa-4b34-93bd-00a9c998fc8f")
+		(property "Netclass" "120V"
+			(at 249.6185 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8434,6 +8493,73 @@
 			(project "Mains_monitor"
 				(path "/825bfe7d-9d9b-4191-9855-e1cdfdd57fae"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 242.57 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec202c1b-fd9e-4e57-bac7-7c529fbecb7b")
+		(property "Reference" "F2"
+			(at 243.332 141.224 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100mAx250V"
+			(at 242.316 135.382 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuseholder_Clip-5x20mm_Bel_FC-203-22_Lateral_P17.80x5.00mm_D1.17mm_Horizontal"
+			(at 242.57 140.208 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 242.57 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0c9acf2-7a07-47ab-91f5-faa7fc769e35")
+		)
+		(pin "2"
+			(uuid "27643df8-a0f7-4476-b195-e742ca8691f1")
+		)
+		(instances
+			(project "Mains_monitor"
+				(path "/825bfe7d-9d9b-4191-9855-e1cdfdd57fae"
+					(reference "F2")
 					(unit 1)
 				)
 			)
